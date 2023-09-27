@@ -4,7 +4,7 @@ import DonationContainer from '../DonationContainer/DonationContainer';
 
 const DonationCard = ({ donate }) => {
   const { data } = useLoaderData();
-  console.log(donate);
+  // console.log(donate);
   const { picture, title, category, category_bg } = donate || {};
   return (
     <div

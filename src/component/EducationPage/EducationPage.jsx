@@ -10,9 +10,9 @@ const EducationPage = () => {
 
   console.log(id);
   useEffect(() => {
-    // const findDonate = data.find((donate) => donate.id === id);
-    // setDonate(findDonate);
-    // console.log(id);
+    const findDonate = data.find((donate) => donate.id === id);
+    setDonate(findDonate);
+    console.log(id);
   }, []);
 
   return (
